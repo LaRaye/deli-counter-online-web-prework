@@ -13,10 +13,10 @@ def line(katz_deli)
   end
 end 
 
-def take_a_number(katz_deli, customer)
-  katz_deli.push(customer)
+def take_a_number(katz_deli)
+  katz_deli.push()
   
-  puts "Welcome, #{customer}. You are number #{katz_deli.size} in line."
+  puts "Welcome, you are number #{}. You are number #{katz_deli.size} in line."
 end
 
 def now_serving(katz_deli)
