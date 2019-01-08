@@ -35,11 +35,3 @@ take_a_number(line)
 now_serving(line)
 now_serving(line)
 take_a_number(line)
-
-class DeliLine
-  @@number = 1
-  def some_method
-    @@number
-  end
-  
-end
