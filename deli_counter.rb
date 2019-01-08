@@ -12,8 +12,8 @@ def line(katz_deli)
     puts "The line is currently: #{line_queue.join(" ")}"
   end
 end 
-
-def take_a_number(katz_deli)
+number = 1
+def take_a_number(katz_deli, number)
   number = katz_deli.size + 1
   katz_deli.push(number)
   
