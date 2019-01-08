@@ -14,7 +14,7 @@ def line(katz_deli)
 end 
 
 def take_a_number(katz_deli)
-  number = 1
+  number = katz_deli.size
   katz_deli.push(number)
   
   puts "Welcome, you are number #{number}. You are number #{katz_deli.size} in line."
