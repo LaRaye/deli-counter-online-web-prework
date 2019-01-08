@@ -12,7 +12,7 @@ def line(katz_deli)
     puts "The line is currently: #{line_queue.join(" ")}"
   end
 end 
-number = 1
+$number = 1
 def take_a_number(katz_deli, number)
   
   katz_deli.push(number)
