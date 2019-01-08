@@ -30,7 +30,7 @@ end
 
 line = []
 now_serving(line)
-take_a_number(line, "LaRaye")
-take_a_number(line, "Morgan")
+take_a_number(line)
+take_a_number(line)
 now_serving(line)
 now_serving(line)
