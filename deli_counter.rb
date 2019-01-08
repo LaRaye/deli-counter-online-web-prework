@@ -13,11 +13,11 @@ def line(katz_deli)
   end
 end 
 $number = 1
-def take_a_number(katz_deli, number)
+def take_a_number(katz_deli)
   
-  katz_deli.push(number)
+  katz_deli.push($number)
   number += 1
-  puts "Welcome, you are number #{number}. You are number #{katz_deli.size} in line."
+  puts "Welcome, you are number #{$number}. You are number #{katz_deli.size} in line."
 end
 
 def now_serving(katz_deli)
